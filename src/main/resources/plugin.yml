@@ -1,5 +1,5 @@
 name: BetterExplosions
 version: '${project.version}'
 main: com.nicocoding.BetterExplosions
-api-version: 1.19
+api-version: 1.8
 description: A plugin that provides better explosions that can be fully customized!

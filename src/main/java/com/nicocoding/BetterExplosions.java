@@ -38,7 +38,7 @@ Maybe to do:
 
         //Registreer events
         Bukkit.getPluginManager().registerEvents(new ExplosionListener(this),this);
-        Bukkit.getPluginManager().registerEvents(new BlockListener(),this);
+        Bukkit.getPluginManager().registerEvents(new BlockListener(this),this);
 
 
         //Registreren van anderen classes
