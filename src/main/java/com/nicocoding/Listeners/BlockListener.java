@@ -14,6 +14,10 @@ public class BlockListener implements Listener {
 
     private BetterExplosions main;
 
+    public BlockListener (BetterExplosions main) {
+        this.main = main;
+    }
+
     @EventHandler
     public void PlacedTnt(BlockPlaceEvent e) {
         if (main.getConfig().getBoolean("Instantignition") == true) {
